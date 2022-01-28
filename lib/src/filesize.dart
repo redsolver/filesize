@@ -6,7 +6,7 @@ String filesize(dynamic size, [int round = 2]) {
    * the optional parameter [round] specifies the number 
    * of digits after comma/point (default is 2)
    */
-  var divider = 1024;
+  var divider = 1000;
   int _size;
   try {
     _size = int.parse(size.toString());
